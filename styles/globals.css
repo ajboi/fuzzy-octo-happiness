@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: bold;
+  src: url("../public/fonts/Roboto-Bold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../public/fonts/Roboto-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: italic;
+  src: url("../public/fonts/Roboto-Italic.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: italic;
+  src: url("../public/fonts/Roboto-BoldItalic.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-style: bold;
+  src: url("../public/fonts/RobotoSlab-Bold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto Slab";
+  font-weight: 800;
+  font-style: bold;
+  src: url("../public/fonts/RobotoSlab-ExtraBold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../public/fonts/RobotoSlab-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto Slab";
+  font-weight: 600;
+  font-style: bold;
+  src: url("../public/fonts/RobotoSlab-SemiBold.ttf") format("ttf");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.heading-bold {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-style: bold;
+}
+
+.heading-extrabold {
+  font-family: "Roboto Slab";
+  font-weight: 800;
+  font-style: bold;
+}
+
+.heading-semibold {
+  font-family: "Roboto Slab";
+  font-weight: 600;
+  font-style: bold;
+}
+
+.heading-normal {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.content-normal {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.content-bold {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: bold;
+}
+
+.content-italic {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: italic;
+}
+
+.content-bolditalic {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: italic;
+}
+
+.postcard {
+  max-width: 300px;
+}
+
+.card-title {
+  margin-top: 0.5rem;
+  margin-top: 0.5rem;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card-date {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
