@@ -1,6 +1,5 @@
-import Footer from "./footer";
+import Footer from "./Footer";
 import StandardNavMenu from "./Header";
-import StandardNav from "./Hader";
 const Layout = (props) => {
   return (
     <>
@@ -8,7 +7,7 @@ const Layout = (props) => {
       {/* <StandardNav /> */}
       <div className="md:container md:mx-auto">
         {props.children}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );

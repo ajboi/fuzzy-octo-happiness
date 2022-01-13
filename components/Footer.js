@@ -31,11 +31,11 @@ const Footer = () => {
       anchor: "https://www.goodreads.com/",
     },
   ];
- 
+
   return (
     <footer className="footer">
       <div className="social-container">
-        <p className="social-text">Follow me on:</p>
+        <p className="social-text heading-normal">Find me on:</p>
         <SocialTray list={mapper} />
         <small>
           &#169;
@@ -44,27 +44,11 @@ const Footer = () => {
             return a.getFullYear();
           })()}. `}
           <a
-            className="footer-small-link"
+            className="footer-small-link text-red"
             href="https://github.com/ajboi/blog"
             target="blank"
           >
             Deepak Krishna
-          </a>
-          . Site Powered by{" "}
-          <a
-            className="footer-small-link"
-            target="blank"
-            href="https://www.nextjs.org"
-          >
-            NextJs
-          </a>{" "}
-          and{" "}
-          <a
-            className="footer-small-link"
-            target="blank"
-            href="https://www.prismic.io"
-          >
-            Prismic
           </a>
           .
         </small>

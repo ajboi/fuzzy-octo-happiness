@@ -15,25 +15,25 @@ function StandardNavMenu() {
       <div className="ml-auto items-center hidden lg:flex">
         <a
           href="#"
-          className="transition duration-200 no-underline px-2 mr-3 font-medium hover:text-blue-light"
+          className="transition duration-300 no-underline px-2 mr-3 font-medium hover:text-red"
         >
           Home
         </a>
         <a
           href="#"
-          className="transition duration-200 no-underline px-2 mr-3 font-medium hover:text-blue-light"
+          className="transition duration-300 no-underline px-2 mr-3 font-medium hover:text-red"
         >
           About
         </a>
         <a
           href="#"
-          className="transition duration-200 no-underline px-2 mr-3 font-medium hover:text-blue-light"
+          className="transition duration-300 no-underline px-2 mr-3 font-medium hover:text-red"
         >
           Blog
         </a>
         <a
           href="#"
-          className="transition duration-200 no-underline px-2 mr-3 font-medium hover:text-blue-light"
+          className="transition duration-300 no-underline px-2 mr-3 font-medium hover:text-red"
         >
           Proof of Work
         </a>
@@ -48,25 +48,25 @@ function StandardNavMenu() {
           <div className="flex-1 flex flex-col items-center text-xl">
             <a
               href="#"
-              className="transition duration-200 no-underline px-2 my-2 font-medium hover:text-blue-light"
+              className="transition duration-200 no-underline px-2 my-2 font-medium hover:text-red"
             >
               Home
             </a>
             <a
               href="#"
-              className="transition duration-200 no-underline px-2 my-2 font-medium hover:text-blue-light"
+              className="transition duration-200 no-underline px-2 my-2 font-medium hover:text-red"
             >
               About
             </a>
             <a
               href="#"
-              className="transition duration-200 no-underline px-2 my-2 font-medium hover:text-blue-light"
+              className="transition duration-200 no-underline px-2 my-2 font-medium hover:text-red"
             >
               Blog
             </a>
             <a
               href="#"
-              className="transition duration-200 no-underline px-2 my-2 font-medium hover:text-blue-light"
+              className="transition duration-200 no-underline px-2 my-2 font-medium hover:text-red"
             >
               Proof of Work
             </a>

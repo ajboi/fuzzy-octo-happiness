@@ -9,6 +9,8 @@ module.exports = {
       "blue-light": "#005691",
       white: "#fafafa",
       "white-light": "#e8f1f5",
+      red: "#ff6699",
+      "red-light": "#512e67",
     },
     extend: {},
   },

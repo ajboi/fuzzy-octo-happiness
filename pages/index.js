@@ -4,9 +4,12 @@ import Heading from "../components/Heading";
 // import Layout from "../components/Layout";
 import Layout from "../components/Layout";
 import FeaturedContainer from "../components/FeaturedContainer";
+import Button from "../components/Button";
+import ButtonCenterContainer from "../components/ButtonCenterContainer";
+import Footer from "../components/Footer";
 
 // import styles from "../styles/Home.module.css";
-import { content } from "../tailwind.config";
+// import { content } from "../tailwind.config";
 // import StandardNavMenu from "../components/Header";
 
 export default function Home(photoUrl) {
@@ -14,6 +17,9 @@ export default function Home(photoUrl) {
     <Layout>
       <Heading heading={"Featured Posts"} />
       <FeaturedContainer />
+      <ButtonCenterContainer>
+        <Button />
+      </ButtonCenterContainer>
     </Layout>
   );
 }
