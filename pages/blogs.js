@@ -9,7 +9,7 @@ export default function Blog({ posts }) {
   return (
     <Layout>
       <Head>
-        <title>Deepak Krishna's Blog</title>
+        <title>Deepak Krishna&#39;s Blog</title>
         <meta
           name="Description"
           content="Hi, I am Deepak Krishna, and this is my personal blog."
