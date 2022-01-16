@@ -217,7 +217,8 @@ a {
 }
 
 .navbar .active {
-  color: #7673e6;
+  color: #fdb902;
+  /* #7673e6 */
 }
 
 .postcard {
