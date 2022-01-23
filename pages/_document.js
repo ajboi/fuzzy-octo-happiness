@@ -9,7 +9,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+          <link rel="icon" href="favicon.ico" />
+        </Head>
         <body className="bg-white">
           <Main />
           <NextScript />
