@@ -53,7 +53,7 @@ export default function Blog({ post }) {
   return (
     <Layout>
       <Head>
-        <title>{`${RichText.asText(post.title)} | Ajai's Blog`}</title>
+        <title>{`${RichText.asText(post.title)} | Deepak's Blog`}</title>
         <link rel="icon" href="favico.ico" />
         <meta name="Description" content={post.excerpt} />
         <meta name="keywords" content={post.keywords} />
@@ -61,7 +61,7 @@ export default function Blog({ post }) {
       <div className="post-container">
         <div className="post-title-container">
           <div className="post-heading">
-            <Heading heading="Fuzzy Octopus" />
+            <Heading heading={RichText.asText(post.title)} />
           </div>
           {/* <h2 className="post-title">{RichText.asText(post.title)}</h2>
            */}

@@ -29,7 +29,7 @@ const Footer = () => {
     {
       name: "Goodreads",
       icon: faGoodreads,
-      anchor: "www.goodreads.com/deepakkrishna",
+      anchor: "https://www.goodreads.com/deepakkrishna",
     },
   ];
 
